@@ -6,6 +6,6 @@ import paho.mqtt.client as mqtt
 client = mqtt.Client()
 client.connect("test.mosquitto.org",1883,60)
 for i in range(1000):
-    client.publish("thk0092", "Hello {}".format(i+1));
+    client.publish("KJPIE", "Hello {}".format(i+1));
 
 client.disconnect();
