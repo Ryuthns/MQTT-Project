@@ -14,9 +14,6 @@ def on_connect(client, userdata, flags, rc):
   
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):
-  '''f = open('receive.jpg','wb')
-  f.write(msg.payload)
-  f.close()'''
   print(msg.payload.decode())
   global cou 
   cou +=1 
