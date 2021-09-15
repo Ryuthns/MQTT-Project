@@ -28,6 +28,6 @@ We were unable to publish 100 images to another device because MQTT broker allow
   
 # **C**
 ## Text (Publishing and Subscribing)
-We used asynchronous publishing and subscribing because most things in C programming language work in sequence which
+We used asynchronous publishing and subscribing because most things in C programming language work in sequence which we don't want in our case. Using asynchronous allows the program to work without having to wait for another program to finish.
 
 
