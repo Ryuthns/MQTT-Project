@@ -8,7 +8,7 @@ We did similiar thing, but this time we published 100 pictures instead. We obser
 **"more updates soon"**
 
 ## Cross-platform pub&sub
-We tried publishing in Linux and subscribing in Windows. The result is that it can be cross-platformed. <br/>
+We tried publishing and subscribing on various operating systems. The result is that it can be cross-platformed. <br/>
 • Windows to Linux and Linux to Window ✅<br/>
 • Raspbian to Linux and Linux to Raspbian ✅<br/>
 • Linux to Linux  ✅<br/>
