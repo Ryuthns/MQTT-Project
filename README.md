@@ -5,7 +5,7 @@
 [MQTT-Paho-python-client Guide](http://www.steves-internet-guide.com/into-mqtt-python-client/) <br/>
 [Download MQTT-Paho-C](https://github.com/eclipse/paho.mqtt.c) <br/>
 [MQTT-Paho-C-client Guide](https://docs.emqx.io/en/broker/v4.3/development/c.html#paho-c-usage-example) <br/>
-[Asynchronous pub/sub C](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html)
+[Paho MQTT C Client Library](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html)
 
 # **Python**
 ## Text (Publishing and Subscribing)
@@ -28,7 +28,5 @@ We were unable to publish 100 images to another device because MQTT broker allow
   
 # **C**
 We used asynchronous publishing and subscribing. <br/> 
-[Pub source code](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/pubasync.html) <br/>
-[Sub source code](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/subasync.html) <br/>
 ![image](https://user-images.githubusercontent.com/87508144/133461738-8af87c50-3631-4262-8413-e4c0df264c50.png)
 
