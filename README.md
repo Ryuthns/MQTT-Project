@@ -27,6 +27,6 @@ We tried publishing and subscribing on various operating systems. The result is 
 We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 400kb which is not enough for our car plate recognition project. So we decided to make a smoker recognition instead. We tested publishing and subscribing (as you can see from above sections) in python, but we will change to C programming language later. We will also use test.mosquitto.org as our broker since we can't afford one.
   
 # **C**
-We used asynchronous publishing and subscribing. <br/> 
-![image](https://user-images.githubusercontent.com/87508144/133461738-8af87c50-3631-4262-8413-e4c0df264c50.png)
+We used asynchronous publishing and subscribing because most things in C programming language work in sequence which
+
 
