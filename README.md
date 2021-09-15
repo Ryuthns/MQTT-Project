@@ -23,7 +23,7 @@ We tried publishing and subscribing on various operating systems. The result is 
 • Linux to Linux  ✅<br/>
  
 ## Conclusion
-We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 400kb which is not enough for our car plate recognition project. So we decided to make a smoker recognition instead. We tested publishing and subscribing (as you can see from above sections) in python, but we will change to C programming language later. We will also use test.mosquitto.org as our broker since we can't afford one.   
+We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 400kb which is not enough for our car plate recognition project. So we decided to make a smoker recognition instead. We tested publishing and subscribing (as you can see from above sections) in python, but we will change to C programming language later. We will also use test.mosquitto.org as our broker since we can't afford one. <br/>
   
 # **C**
 https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/pubasync.html
