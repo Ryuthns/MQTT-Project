@@ -14,5 +14,5 @@ We tried publishing and subscribing on various operating systems. The result is 
 • Linux to Linux  ✅<br/>
  
 # Conclusion
-We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered to approximately 130kb which is not enough for our project.   
+We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered to approximately 130kb which is not enough for our car plate recognition project.     
 So we decided to
