@@ -11,7 +11,7 @@ We published 1000 messages using test.mosquitto.org as host and subscribed the m
 ![image](https://user-images.githubusercontent.com/87508144/132022442-01ccf664-9392-455c-b449-cbac216c5072.png)
 
 ## Pictures (Publishing and Subscribing) 
-We did similiar thing, but this time we published 100 pictures instead. We observed that any picture with the size above 400kb won't reach the subscribing terminal.
+We did similiar thing, but this time we published 100 pictures instead. We observed that the counter stop counting after sometimes, so we calculated the overall size of image transfered. We found out that the broker won't allow combined size of around 400kb to be transfered.
 ![image](https://user-images.githubusercontent.com/87508144/133457337-0595e407-e394-4c31-bfaa-6612f3afa088.png)
 
 
