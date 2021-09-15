@@ -5,6 +5,7 @@
 [MQTT-Paho-python-client Guide](http://www.steves-internet-guide.com/into-mqtt-python-client/) <br/>
 [Download MQTT-Paho-C](https://github.com/eclipse/paho.mqtt.c) <br/>
 [MQTT-Paho-C-client Guide](https://docs.emqx.io/en/broker/v4.3/development/c.html#paho-c-usage-example)
+[Asynchronous pub/sub C](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html)
 
 # **Python**
 ## Text (Publishing and Subscribing)
