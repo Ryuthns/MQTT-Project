@@ -3,7 +3,7 @@
 [Download MQTT](https://mosquitto.org/download/) <br/>
 [Download MQTT-Paho-python](https://github.com/eclipse/paho.mqtt.python) <br/>
 [MQTT-Paho-python-client Guide](http://www.steves-internet-guide.com/into-mqtt-python-client/) <br/>
-[Download MQTT-Paho-c](https://github.com/eclipse/paho.mqtt.c) <br/>
+[Download MQTT-Paho-C](https://github.com/eclipse/paho.mqtt.c) <br/>
 [MQTT-Paho-C-client Guide](https://docs.emqx.io/en/broker/v4.3/development/c.html#paho-c-usage-example)
 
 ## Text (Publishing and Subscribing)
