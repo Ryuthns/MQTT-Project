@@ -1,7 +1,8 @@
 # **What we've done**
 [Test Mosquitto](https://test.mosquitto.org/) <br/>
 [Download MQTT](https://mosquitto.org/download/) <br/>
-[Download Eclipse Paho](https://projects.eclipse.org/projects/iot.paho/downloads)
+[Download MQTT-Paho-python](https://github.com/eclipse/paho.mqtt.python) <br/>
+[Download MQTT-Paho-c](https://github.com/eclipse/paho.mqtt.c)
 ## Text (Publishing and Subscribing)
 We published 1000 messages using test.mosquitto.org as host and subscribed the messages in another terminal. We also created a counter to count messages received to make sure that no message is lost along the way.
 ![image](https://user-images.githubusercontent.com/87508144/132022442-01ccf664-9392-455c-b449-cbac216c5072.png)
