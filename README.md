@@ -13,5 +13,5 @@ Windows to Linux and Linux to Window ✅<br/>
 Raspbian to Linux and Linux to Raspbian ✅<br/>
 Linux to Linux  ✅<br/>
  
-##Conclusion
+## Conclusion
 We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered to approximately 130kb which is not enough for our project.
