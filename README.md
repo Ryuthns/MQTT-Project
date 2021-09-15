@@ -12,7 +12,8 @@ We published 1000 messages using test.mosquitto.org as host and subscribed the m
 
 ## Pictures (Publishing and Subscribing) 
 We did similiar thing, but this time we published 100 pictures instead. We observed that any picture with the size above 400kb won't reach the subscribing terminal.
-**"more updates soon"**
+![image](https://user-images.githubusercontent.com/87508144/133457337-0595e407-e394-4c31-bfaa-6612f3afa088.png)
+
 
 ## Cross-platform pub&sub
 We tried publishing and subscribing on various operating systems. The result is that it can be cross-platformed. <br/>
