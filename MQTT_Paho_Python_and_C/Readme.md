@@ -28,7 +28,7 @@ We tried publishing and subscribing on various operating systems. The result is 
 We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 128kb which is not enough for our car plate recognition project. So we decided to make a smoker detection instead. We tested publishing and subscribing (as you can see from above sections) in python, but we will change to C programming language later. We will be using test.mosquitto.org as our broker since we can't afford one.
   
 # **C**
-We can't use stdio.h to open images in C, so we need the help of jpeglib.h and paho libraries. <br/>
+We can't use stdio.h to open images in C, so we need the help of jpeglib.h and paho libraries.
 We used asynchronous publishing and subscribing because most things in C programming language work in sequence which we don't want in our case. Using asynchronous allows the program to work without having to wait for another program to finish.
 ## Text (Publishing and Subscribing)
 **"more update soon"**
