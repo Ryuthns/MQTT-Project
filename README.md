@@ -7,6 +7,7 @@
 [MQTT-Paho-C-client Guide](https://docs.emqx.io/en/broker/v4.3/development/c.html#paho-c-usage-example) <br/>
 [Paho MQTT C Client Library](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html) </br>
 [jpeglib.h Library](https://github.com/winlibs/libjpeg)
+![image](https://user-images.githubusercontent.com/87508144/133622243-bd90d070-dfeb-49e4-bc3e-bcd07c2a05d0.png)
 
 # **Python**
 ## Text (Publishing and Subscribing)
