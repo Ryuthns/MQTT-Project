@@ -31,7 +31,7 @@ We were unable to publish 100 images to another device because MQTT broker allow
 We can't use stdio.h to open images in C, so we need the help of jpeglib.h and paho libraries. <br/>
 We used asynchronous publishing and subscribing because most things in C programming language work in sequence which we don't want in our case. Using asynchronous allows the program to work without having to wait for another program to finish.
 ## Text (Publishing and Subscribing)
-**more update soon**
+**"more update soon"**
 
 ## Pictures (Publishing and Subscribing) 
-**more update soon**
+**"more update soon"**
