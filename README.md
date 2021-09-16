@@ -1,5 +1,3 @@
-![image](https://user-images.githubusercontent.com/87508144/133622332-cfd065c8-90d1-4b09-bd62-431c4cfc7c06.png)
-
 ## Necessary Links <br/>
 [Test Mosquitto Website](https://test.mosquitto.org/) <br/>
 [Download MQTT](https://mosquitto.org/download/) <br/>
