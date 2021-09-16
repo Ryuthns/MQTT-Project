@@ -5,6 +5,6 @@
 In this project, we will use our program to detect smoker in public areas. Once detected, the program will publish an image of smoker along with location to client side through MQTT broker.
 
 ## Preparation
-
+**"more update soon"**
 
 
