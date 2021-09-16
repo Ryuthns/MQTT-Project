@@ -54,13 +54,8 @@ int main(int argc, char* argv[])
         exit(EXIT_FAILURE);
     }
 
-    for(int i=0;i<100;i++){
-        int temp = i;
-        if(temp==58){
-            temp=48;}
-        char *mes = temp;
-    pubmsg.payload = mes;
-    //pubmsg.payloadlen = strlen(i);
+    pubmsg.payload = PAYLOAD;
+    pubmsg.payloadlen = strlen(PAYLOAD);
     pubmsg.qos = QOS;
     pubmsg.retained = 0;
     deliveredtoken = 0;
