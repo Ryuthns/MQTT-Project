@@ -10,6 +10,6 @@ In this project, we will use our program to detect smoker in public areas with t
 • Replace Location with camera ID  <br/>
 • Test and Optimize Viola-Jones <br/>
 • Detect face along with ciga <br/>
-• Train openCV more    
+• Train openCV more <br/>    
 
 
