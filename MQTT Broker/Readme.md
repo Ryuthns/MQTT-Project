@@ -37,7 +37,7 @@ We were unable to publish 100 images to another device because MQTT broker allow
 Due to the slow runtime, limit of sizes in test.mosquitto.org and not wanting to port forward, so we use localhost instead as we can do configuration by ourselves. In this case, we use hamachi.
 
 ## Text (Publishing and Subscribing)
-![image](https://user-images.githubusercontent.com/87508144/133800263-889be1a4-3967-44f5-bac1-e60d1e1889a7.png)
+![image](https://user-images.githubusercontent.com/87508144/133802272-cb1eb8c1-70f4-4d8e-8666-c3ef0555c3e8.png)
 ![image](https://user-images.githubusercontent.com/87508144/133800304-dfd570b5-0b84-4a01-a0e1-42cda3ce8d60.png)
 
 
