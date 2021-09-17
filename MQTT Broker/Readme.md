@@ -28,4 +28,4 @@ We tried publishing and subscribing on various operating systems. The result is 
 ## Conclusion
 We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 128kb which is not enough for our car plate recognition project. So we decided to make a smoker detection instead. We tested publishing and subscribing (as you can see from above sections) in python, but we will change to C programming language later. We will be using test.mosquitto.org as our broker since we can't afford one.
   
-# Local Host Broker (Hamachi)
+# Localhost Broker (Hamachi)
