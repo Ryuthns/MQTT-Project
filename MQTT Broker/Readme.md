@@ -1,3 +1,4 @@
+# Test.Mosquitto.org Broker
 ## Necessary Links <br/>
 • [Test Mosquitto Website](https://test.mosquitto.org/) <br/>
 • [Download MQTT](https://mosquitto.org/download/) <br/>
@@ -8,7 +9,6 @@
 • [Paho MQTT C Client Library](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html) </br>
 • [jpeglib.h Library](https://github.com/winlibs/libjpeg)
 
-# Test.Mosquitto.org Broker
 ## Text (Publishing and Subscribing)
 • **Python** : We published 1000 messages using test.mosquitto.org as host and subscribed the messages in another terminal. We also created a counter to count messages received to make sure that no message is lost along the way. <br/>
 • **C** : We published messages through test.mosquitto.org broker just like in python.
