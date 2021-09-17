@@ -11,7 +11,8 @@
 We used asynchronous publishing and subscribing because most things in C programming language work in sequence which we don't want in our case. Using asynchronous allows the program to work without having to wait for another program to finish.
 # Test.Mosquitto.org Broker
 ## Text (Publishing and Subscribing)
-We published 1000 messages using test.mosquitto.org as host and subscribed the messages in another terminal. We also created a counter to count messages received to make sure that no message is lost along the way.
+• **Python** We published 1000 messages using test.mosquitto.org as host and subscribed the messages in another terminal. We also created a counter to count messages received to make sure that no message is lost along the way.
+• **C**
 ![image](https://user-images.githubusercontent.com/87508144/133459762-a8877785-9e4b-48b3-bd6e-f5957ea428d8.png)
 
 ## Pictures (Publishing and Subscribing) 
