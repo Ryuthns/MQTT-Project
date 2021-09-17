@@ -8,7 +8,6 @@
 • [Paho MQTT C Client Library](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html) </br>
 • [jpeglib.h Library](https://github.com/winlibs/libjpeg)
 
-We used asynchronous publishing and subscribing because most things in C programming language work in sequence which we don't want in our case. Using asynchronous allows the program to work without having to wait for another program to finish.
 # Test.Mosquitto.org Broker
 ## Text (Publishing and Subscribing)
 • **Python** : We published 1000 messages using test.mosquitto.org as host and subscribed the messages in another terminal. We also created a counter to count messages received to make sure that no message is lost along the way. <br/>
