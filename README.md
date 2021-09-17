@@ -13,8 +13,3 @@ In this project, we will use our program to detect smoker in public areas with t
 • Detect face along with ciga <br/>
 • Train openCV more <br/>
 
-## Hamachi (Linux)
-![image](https://user-images.githubusercontent.com/87508144/133725779-6a52cb07-e878-44e8-902a-bdd387bdff91.png)
-![image](https://user-images.githubusercontent.com/87508144/133725786-f59f2299-4224-4588-83fd-9446f4ab8117.png)
-
-
