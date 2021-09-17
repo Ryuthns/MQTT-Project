@@ -6,6 +6,7 @@ In this project, we will use our program to detect smoker in public areas with t
 
 ## Additions
 • Local broker (Hamachi)  <br/>
+• Send images using HTTP instead <br/>
 • Camera specs  <br/>
 • Replace Location with camera ID  <br/>
 • Test and Optimize Viola-Jones <br/>
