@@ -45,3 +45,4 @@ Using hamachi, we're able to publish and subscribe without limitations. <br/>
 ![image](https://user-images.githubusercontent.com/87508144/133805067-a2172753-5784-436b-8b2e-58755df9d5ef.png)
 
 # HTTP Protocol
+Since MQTT is not suit for sending images. We will be using HTTP protocol instead.
