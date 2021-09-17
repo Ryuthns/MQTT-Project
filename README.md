@@ -1,4 +1,6 @@
 # Smoker Detection
+![image](https://user-images.githubusercontent.com/87508144/133792974-d911744b-b44a-4b18-8908-eeb9b2e91ff8.png)
+
 ![image](https://user-images.githubusercontent.com/87508144/133630669-221b01ff-2ae5-4846-8b42-493c7ef1291a.png)
 
 ## Overview
