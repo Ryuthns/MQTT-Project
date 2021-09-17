@@ -11,7 +11,7 @@
 # Test.Mosquitto.org Broker
 ## Text (Publishing and Subscribing)
 • **Python** : We published 1000 messages using test.mosquitto.org as host and subscribed the messages in another terminal. We also created a counter to count messages received to make sure that no message is lost along the way. <br/>
-• **C** :
+• **C** : We published messages through test.mosquitto.org broker just like in python.
 
 ![image](https://user-images.githubusercontent.com/87508144/133459762-a8877785-9e4b-48b3-bd6e-f5957ea428d8.png)
 
@@ -28,7 +28,7 @@ We tried publishing and subscribing on various operating systems. The result is 
 • Linux to Linux  ✅<br/>
  
 ## Conclusion
-We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 128kb which is not enough for our car plate recognition project. So we decided to make a smoker detection instead. We tested publishing and subscribing (as you can see from above sections) in python, but we will change to C programming language later. We will be using test.mosquitto.org as our broker since we can't afford one.
+We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 128kb which is not enough for our project. So we decided to use localhost as broker.
   
 # Localhost Broker (Hamachi)
 ## Necessary Links <br/>
