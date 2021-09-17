@@ -34,3 +34,5 @@ We were unable to publish 100 images to another device because MQTT broker allow
 ## Necessary Links <br/>
 • [Haguichi LinuxOS](https://haguichi.net/) <br/>
 • [Download Hamachi](https://www.vpn.net/) <br/>
+
+Due to the slow runtime, limit of sizes in test.mosquitto.org and not wanting to port forward, so we use hamachi which will
