@@ -28,7 +28,7 @@ We tried publishing and subscribing on various operating systems. The result is 
 • Linux to Linux  ✅<br/>
  
 ## Conclusion
-We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 128kb which is not enough for our project. So we decided to use localhost as broker.
+We were unable to publish 100 images to another device because MQTT broker allows the overall size of images transfered not more than approximately 128kb which is not enough for our project. So we decided to use localhost as broker. After that we chose to use HTTP to send images
   
 # Localhost Broker (Hamachi)
 ## Necessary Links <br/>
