@@ -34,7 +34,7 @@ We were unable to publish 100 images to another device because MQTT broker allow
 • [Haguichi LinuxOS](https://haguichi.net/) <br/>
 • [Download Hamachi](https://www.vpn.net/) <br/>
 
-Due to the slow runtime, limit of sizes in test.mosquitto.org and not wanting to port forward, so we use localhost instead as we can do configuration by ourselves. In this case, we use hamachi. <br/>
+Due to the slow runtime, limit of sizes in test.mosquitto.org and not wanting to port forward, so we use localhost instead as we can do configuration by ourselves. In this case, we use hamachi which is hosted VPN service that lets you securely extend LAN-like networks. <br/>
 • Port : 1883 <br/>
 • Allow Annonymous <br/>
 • Use TCP://"exampleaddress":1883
