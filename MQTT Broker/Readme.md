@@ -40,7 +40,7 @@ Due to the slow runtime, limit of sizes in test.mosquitto.org and not wanting to
 • Use TCP://"exampleaddress":1883
 
 ## Text (Publishing and Subscribing)
-![image](https://user-images.githubusercontent.com/87508144/133804977-073f9b2a-8158-41bb-afe7-92a3547c77e2.png)
-![image](https://user-images.githubusercontent.com/87508144/133804990-b1c20038-7114-4567-bdc7-7272fd1944c8.png)
+![image](https://user-images.githubusercontent.com/87508144/133805042-b5f15631-5c01-4e53-8635-cf3c0846fc72.png)
+![image](https://user-images.githubusercontent.com/87508144/133805067-a2172753-5784-436b-8b2e-58755df9d5ef.png)
 
 
