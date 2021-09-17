@@ -33,4 +33,4 @@ We were unable to publish 100 images to another device because MQTT broker allow
 # Localhost Broker (Hamachi)
 ## Necessary Links <br/>
 • [Haguichi LinuxOS](https://haguichi.net/) <br/>
-• [Hamachi WindowsOS, macOS](https://www.vpn.net/) <br/>
+• [Download Hamachi](https://www.vpn.net/) <br/>
