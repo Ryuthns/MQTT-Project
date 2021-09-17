@@ -8,7 +8,8 @@ In this project, we will use our program to detect smoker in public areas with t
 • Local broker (Hamachi)  
 • Camera specs  
 • Replace Location with camera ID  
-• Test Viola-Jones  
+• Test and Optimize Viola-Jones
+• Detect face along with ciga
 • Train openCV more    
 
 
