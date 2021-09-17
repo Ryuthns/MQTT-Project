@@ -40,7 +40,7 @@ Due to the slow runtime, limit of sizes in test.mosquitto.org and not wanting to
 • Use TCP://"exampleaddress":1883
 
 ## Text (Publishing and Subscribing)
-Using hamachi, we're able to publish and subscribe <br/>
+Using hamachi, we're able to publish and subscribe without limitations. <br/>
 ![image](https://user-images.githubusercontent.com/87508144/133805124-fcb967d2-48d8-41d8-9786-af0df7b360dc.png)
 ![image](https://user-images.githubusercontent.com/87508144/133805067-a2172753-5784-436b-8b2e-58755df9d5ef.png)
 
