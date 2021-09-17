@@ -35,6 +35,9 @@ We were unable to publish 100 images to another device because MQTT broker allow
 • [Download Hamachi](https://www.vpn.net/) <br/>
 
 Due to the slow runtime, limit of sizes in test.mosquitto.org and not wanting to port forward, so we use localhost instead as we can do configuration by ourselves. In this case, we use hamachi.
+• Port : 1883
+• Allow Annonymous
+• Use TCP://"exampleaddress":1883
 
 ## Text (Publishing and Subscribing)
 ![image](https://user-images.githubusercontent.com/87508144/133802272-cb1eb8c1-70f4-4d8e-8666-c3ef0555c3e8.png)
