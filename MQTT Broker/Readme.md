@@ -54,4 +54,5 @@ $ sudo ufw status
 $ sudo ufw enable //execute this when the status is 'inactive'
 $ sudo ufw default deny
 ```
+Then execute the command to check the status again. Once 80/tcp is allowed, all you have to do is connect your devices in the same network on hamachi.
 
