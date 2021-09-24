@@ -1,7 +1,7 @@
 # Face Detection
 We will be using openCV and viola-jones algorithm for detection. <br/>
 **- Why OpenCV and Viola-Jones ?** <br/>
-- **OpenCV** : It's open source library for computer vision, machine learning, and image processing. It also has rea-time operation which is very important. <br/>
+- **OpenCV** : It's open source library for computer vision, machine learning, and image processing. It also has real-time operation which is very important. <br/>
 - **Viola-Jones** : It's well known for its reputation and reliability. It's exceptionally notable in real-time face detection.
 
 ![image](https://user-images.githubusercontent.com/87508144/133806003-8bfd3071-5be6-4b11-a7d7-69754597eab8.png)
