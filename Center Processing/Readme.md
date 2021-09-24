@@ -8,6 +8,7 @@ We will be using openCV and viola-jones algorithm for detection. <br/>
 
 
 # GUI Application
+On this side, we will use tkinter which is a package in python for creating GUI. It's easy to use.
 
 # Save-file and Send-file
 
