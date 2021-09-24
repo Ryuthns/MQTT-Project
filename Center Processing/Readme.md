@@ -1,4 +1,5 @@
 # Face Detection
+## Viola-Jones Algorithm
 
 # GUI Application
 
