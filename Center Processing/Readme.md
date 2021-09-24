@@ -8,7 +8,7 @@ We will be using openCV and viola-jones algorithm for detection. <br/>
 
 
 # GUI Application
-On this side, we will use tkinter which is a package in python for creating GUI. It's easy to use which will make coding much faster than using other programming languages.
+On this side, we will use tkinter which is a package in python for creating GUI. It's easy to use which will make coding much faster when compared to using other programming languages.
 
 # Save-file and Send-file
 
