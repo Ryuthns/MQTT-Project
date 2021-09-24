@@ -46,6 +46,12 @@ Using hamachi, we're able to publish and subscribe without limitations. <br/>
 
 # HTTP Protocol
 Since MQTT is not suit for sending images. We will be using HTTP protocol instead. <br/>
-Firstly, we have to install apache2 (server client) using command
-`dsfsdfdsf`
+Firstly, we have to install apache2 (server client) using commands :
+```
+$ sudo apt install apache2 -y
+$ sudo ufw allow 80/tcp
+$ sudo ufw status
+$ sudo ufw enable //execute this when the status is 'inactive'
+$ sudo ufw default deny
+```
 
