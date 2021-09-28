@@ -44,15 +44,7 @@ Using hamachi, we're able to publish and subscribe without limitations. <br/>
 ![image](https://user-images.githubusercontent.com/87508144/133805124-fcb967d2-48d8-41d8-9786-af0df7b360dc.png)
 ![image](https://user-images.githubusercontent.com/87508144/133805067-a2172753-5784-436b-8b2e-58755df9d5ef.png)
 
-# HTTP Protocol
-Since MQTT does not suit sending images. We will be using HTTP protocol instead. <br/>
-Firstly, we have to install apache2 (server client) and adjust firewall using commands :
-```
-$ sudo apt install apache2 -y
-$ sudo ufw allow 80/tcp
-$ sudo ufw status
-$ sudo ufw enable //execute this when the status is 'inactive'
-$ sudo ufw default deny
-```
-Then execute the command to check the status again. Once 80/tcp is allowed, all you have to do is connect your devices in the same network on hamachi.
+# TCP Socket
+Since MQTT does not suit sending images. We will be using TCP socket instead. <br/>
+
 
