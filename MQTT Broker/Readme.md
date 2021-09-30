@@ -46,5 +46,7 @@ Using hamachi, we're able to publish and subscribe without limitations. <br/>
 
 # TCP Socket
 Since MQTT does not suit sending images. We will be using TCP socket instead. <br/>
+![image](https://user-images.githubusercontent.com/87508144/135466051-af863b47-5d29-4b35-abdd-88917a242164.png)
+
 
 
