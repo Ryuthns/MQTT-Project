@@ -15,5 +15,5 @@ There are two stages of Viola-Jones which is training and detection.
 On this side, we will use tkinter which is a package in python for creating GUI. It's easy to use which will make coding much faster when compared to using other programming languages.
 
 # Save-file and Send-file
-Texts will be sent via MQTT while pictures will be sent via the help of http.
+Texts will be sent via MQTT while pictures will be sent via the help of tcp socket.
 
