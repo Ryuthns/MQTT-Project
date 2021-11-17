@@ -17,5 +17,8 @@ For our GUI application, we will use tkinter which is a package in python for cr
 ## How it works
 Once executed, the program will read and get data like server, topic, and path from config.txt file in the same directory. Then it will try to connect to MQTT broker with topic from your config file. If the connection is OK, "connected" will be shown in the GUI.
 
+![image](https://user-images.githubusercontent.com/87508144/142207669-cf18b7a9-bef4-4ed0-bde6-e268e9861834.png)
+
+
 
 
