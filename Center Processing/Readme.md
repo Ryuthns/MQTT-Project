@@ -18,9 +18,19 @@ For our GUI application, we will use tkinter which is a package in python for cr
 Once executed, the program will read and get data like server, topic, and path from config.txt file in the same directory. Then it will try to connect to MQTT broker with topic from your config file. If the connection is OK, "Connected" will be shown in the GUI.
 
 ![image](https://user-images.githubusercontent.com/87508144/142207803-e6462cbe-e629-4db3-bf64-267c44945e14.png) <br/>
-You are now asked to put camera ID in the entry box. The camaera ID must be between 1-9, others will be rejected and an error message will pop up. Clicking start button will move you to another page unless you left the entry box blank. <br/>
+Camera ID is required in the entry box. The camaera ID must be between 1-9, others will be rejected and an error message will pop up. Clicking start button will move to another page unless the entry box is blank. <br/>
 ![image](https://user-images.githubusercontent.com/87508144/142209374-f6175fa2-c441-4583-b448-fd952e76c8c2.png) <br/>
-As you can see from the image above, "Connected" is shown in the GUI to let us know that the connection to our MQTT broker server has no problem. Camera ID and timestamp are also there. In this page, your recording device is displayed in the GUI and you're ready to detect.
+As you can see from the image above, "Connected" is shown in the GUI to let us know that the connection to our MQTT broker server has no problem. Camera ID and timestamp are also there. In this page, your recording device is displayed in the GUI and you're ready to detect. <br/>
+![image](https://user-images.githubusercontent.com/87508144/142212056-447d1c52-8dd5-4a12-b3ec-4b77c9525d33.png)
+![image](https://user-images.githubusercontent.com/87508144/142213518-88b9aa29-7a98-4a14-a0b1-7603456449f7.png) <br/>
+We put a delay(5sec) between saving images so that our folder won't be flooded with images being saved every seconds during detection. Once detected, that image is then saved with timestamp being file name in the directory "current_images" and the file name will be stored in "data.txt" temporary.
+![image](https://user-images.githubusercontent.com/87508144/142213977-01f3f25a-76c2-4f9c-bdc1-70a39433c951.png) <br/>
+After you close the program, all the images in "current_images" will be moved to "Cache" using names in "data.txt".
+
+
+
+
+
 
 
 
