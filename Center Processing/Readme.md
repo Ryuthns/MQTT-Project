@@ -19,7 +19,8 @@ Once executed, the program will read and get data like server, topic, and path f
 
 ![image](https://user-images.githubusercontent.com/87508144/142207803-e6462cbe-e629-4db3-bf64-267c44945e14.png) <br/>
 You are now asked to put camera ID in the entry box. The camaera ID must be between 1-9, others will be rejected and an error message will pop up.
-![image](https://user-images.githubusercontent.com/87508144/142209126-7bee0a21-f7e1-4e60-b979-543051e713f1.png)
+![image](https://user-images.githubusercontent.com/87508144/142209374-f6175fa2-c441-4583-b448-fd952e76c8c2.png)
+
 
 
 
