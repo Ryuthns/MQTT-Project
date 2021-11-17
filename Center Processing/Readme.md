@@ -1,4 +1,4 @@
-#Detection
+# Detection
 We will be using openCV and viola-jones algorithm for detection. <br/>
 **- Why OpenCV and Viola-Jones ?** <br/>
 - **OpenCV** : It's open source library for computer vision, machine learning, and image processing. It also has real-time operation which is very important. <br/>
