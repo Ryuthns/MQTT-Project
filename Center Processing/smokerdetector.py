@@ -1,7 +1,5 @@
 import pysftp
 from ftplib import FTP 
-# import sys
-# import fileinput
 import time
 import paho.mqtt.client as mqtt
 import os
@@ -27,9 +25,6 @@ detecting = False
 parser = configparser.ConfigParser()
 parser.read("config.txt")
 
-# face_cascade = cv2.CascadeClassifier('classifier/haarcascade_frontalcatface.xml')
-# face_cascade = cv2.CascadeClassifier('classifier/haarcascade_frontalcatface_extended.xml')
-# face_cascade = cv2.CascadeClassifier('classifier/cascade22stages.xml')
 face_cascade = cv2.CascadeClassifier('classifier/face_detect.xml')
 cigar_cascade = cv2.CascadeClassifier('classifier/cascade25.xml')
 
@@ -99,17 +94,8 @@ def show_vid():  # creating a function
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     
-    folder = '/home/s6301012620049/Desktop/c c++/Project'
-    path = '/home/s6301012620049/Desktop/c c++/Project/current_images'
+    path = parser.get("config","path")
     filename = "cam" + camid + "_" + T + ".jpg"
-
-    # for (x, y, w, h) in faces:
-    #     # To draw a rectangle in a face
-    #     cv2.rectangle(pic, (x, y), (x + w, y + h), (255, 255, 0), 2)
-    #     cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 255, 0), 2)
-    #     cv2.putText(pic, 'Detected', (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
-    #     cv2.putText(frame, 'Detected', (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
-    #     resize = cv2.resize(frame, (576, 432))
 
     for (x,y,w,h) in faces:
         cv2.rectangle(frame, (x,y), (x+w, y+h), (255,0,0), 2)
@@ -131,7 +117,6 @@ def show_vid():  # creating a function
             cv2.putText(roi_pic, 'Cigarette', (ex, ey-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36,255,12), 2)
             resize = cv2.resize(frame, (576, 432))
 
-
     img = Image.fromarray(pic)
     reim = img.resize((1150, 600))
     imgtk = ImageTk.PhotoImage(image=reim)
@@ -144,10 +129,10 @@ def uploadpic():
     f = open("data.txt","a")
     while signal_running :
         if detecting:
-            cv2.imwrite(os.path.join(path, filename), resize)
+            cv2.imwrite(os.path.join(path+"/current_images", filename), resize)
             f.write(filename+"\n")
             client.publish(topic, "cam" + camid + "_" + T)
-            localfile = path+"/"+filename
+            localfile = path+"/current_images"+"/"+filename
             username = "admin"
             # password = "U%%FSM74Y$GZ"
             hostname = "203.146.252.179"
@@ -179,7 +164,7 @@ if __name__ == '__main__':
 
     root = tk.Tk()
     root.title('Smoker Detection')
-    root.iconphoto(True, PhotoImage(file="/home/s6301012620049/Desktop/c c++/Project/no_smoke.png"))
+    root.iconphoto(True, PhotoImage(file="no_smoke.png"))
     root.geometry("1200x800")
     font_large = font.Font(family='Georgia', size='72', weight='bold')
     font_small = font.Font(family='Calibri', size='18')
@@ -255,7 +240,7 @@ if __name__ == '__main__':
     line = f.read().splitlines()
     for i in line:
         try:
-            os.rename(path+"/"+i, folder+"/"+"Cache"+"/"+i)      # (old dir, new dir)
+            os.rename(path+"/"+"current_images"+"/"+i, path+"/"+"Cache"+"/"+i)      # (old dir, new dir)
         except:
             print("")
     f.close()
