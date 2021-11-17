@@ -1,0 +1,3 @@
+[config]
+server=203.146.252.179
+topic=kjpie
