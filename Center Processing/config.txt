@@ -1,3 +1,4 @@
 [config]
 server=203.146.252.179
 topic=kjpie
+path=<Path to your directory>    ex. /home/s6301012620049/Desktop/c c++/Project
