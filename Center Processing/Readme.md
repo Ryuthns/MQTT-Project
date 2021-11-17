@@ -20,12 +20,12 @@ Once executed, the program will read and get data like server, topic, and path f
 ![image](https://user-images.githubusercontent.com/87508144/142207803-e6462cbe-e629-4db3-bf64-267c44945e14.png) <br/>
 Camera ID is required in the entry box. The camaera ID must be between 1-9, others will be rejected and an error message will pop up. Clicking start button will move to another page unless the entry box is blank. <br/>
 ![image](https://user-images.githubusercontent.com/87508144/142209374-f6175fa2-c441-4583-b448-fd952e76c8c2.png) <br/>
-As you can see from the image above, "Connected" is shown in the GUI to let us know that the connection to our MQTT broker server has no problem. Camera ID and timestamp are also there. In this page, your recording device is displayed in the GUI and you're ready to detect. <br/>
+As you can see from the image above, "Connected" is shown in the GUI to let us know that the connection to our MQTT broker server has no problem. Camera ID and timestamp are also there. In this page, your recording device is displayed in the GUI and you're ready to detect. We used 2 XML files to help detect. One is for face detection and another is for cigarette detection. <br/>
 ![image](https://user-images.githubusercontent.com/87508144/142212056-447d1c52-8dd5-4a12-b3ec-4b77c9525d33.png)
 ![image](https://user-images.githubusercontent.com/87508144/142213518-88b9aa29-7a98-4a14-a0b1-7603456449f7.png) <br/>
 We put a delay(around 5sec) between saving images so that our folder won't be flooded with images being saved every seconds during detection. Once detected, that image is then saved with timestamp being file name in the directory "current_images" and the file name will be stored in "data.txt" temporary. During this process, the saved images are uploaded to our server using sftp protocol.
 ![image](https://user-images.githubusercontent.com/87508144/142213977-01f3f25a-76c2-4f9c-bdc1-70a39433c951.png) <br/>
-After you close the program, all the images in "current_images" will be moved to "Cache" using names in "data.txt".
+After you close the program, all the images in "current_images" will be moved to "Cache" using names in "data.txt". Then we clear all the texts in "data.txt".
 
 
 
