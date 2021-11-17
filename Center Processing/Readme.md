@@ -8,7 +8,8 @@ There are two stages of Viola-Jones which is training and detection.
 ![image](https://user-images.githubusercontent.com/87508144/134677353-bb8dfd05-b1f4-4d63-9201-a64c031230b4.png)
 
 
-![image](https://user-images.githubusercontent.com/87508144/133806003-8bfd3071-5be6-4b11-a7d7-69754597eab8.png)
+![image](https://user-images.githubusercontent.com/87508144/142204770-aa6d6819-142c-403b-a1df-7a9c11f93828.png)
+
 
 
 # GUI Application
