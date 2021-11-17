@@ -15,12 +15,12 @@ Once we finished training, we got the xml file and tested it.
 # GUI Application
 For our GUI application, we will use tkinter which is a package in python for creating GUI. It's easy to use which will make coding much faster when compared to using other programming languages.
 ## How it works
-Once executed, the program will read and get data like server, topic, and path from config.txt file in the same directory. Then it will try to connect to MQTT broker with topic from your config file. If the connection is OK, "connected" will be shown in the GUI.
+Once executed, the program will read and get data like server, topic, and path from config.txt file in the same directory. Then it will try to connect to MQTT broker with topic from your config file. If the connection is OK, "Connected" will be shown in the GUI.
 
 ![image](https://user-images.githubusercontent.com/87508144/142207803-e6462cbe-e629-4db3-bf64-267c44945e14.png) <br/>
 You are now asked to put camera ID in the entry box. The camaera ID must be between 1-9, others will be rejected and an error message will pop up. <br/>
 ![image](https://user-images.githubusercontent.com/87508144/142209374-f6175fa2-c441-4583-b448-fd952e76c8c2.png) <br/>
-As you can see from the image above, "connected" is shown in the GUI to let us know that the connection to our MQTT broker server has no problem.
+As you can see from the image above, "Connected" is shown in the GUI to let us know that the connection to our MQTT broker server has no problem.
 
 
 
