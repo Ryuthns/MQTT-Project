@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Ryuthns 
-JittachaiKMUTNB
-/
-gtk
-Public
-1
-01
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-gtk/FIN/guitest2.c
-@JittachaiKMUTNB
-JittachaiKMUTNB Update guitest2.c
-Latest commit 8eb4e2d 20 days ago
- History
- 1 contributor
-1802 lines (1313 sloc)  58 KB
-   
 // $ sudo apt-get install libgtk-3-dev
 /*
 gcc -g guitest2.c -o guitest2 -lpaho-mqtt3c -lpthread -lcurl \
@@ -1827,17 +1797,3 @@ void add_columns (GtkTreeView *treeview) {
     gtk_tree_view_append_column (treeview, column);
   
 }
-
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete'+
