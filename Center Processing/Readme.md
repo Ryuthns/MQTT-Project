@@ -13,7 +13,9 @@ Once we finished training, we got the xml file and tested it.
 
 
 # GUI Application
-On this side, we will use tkinter which is a package in python for creating GUI. It's easy to use which will make coding much faster when compared to using other programming languages.
+For our GUI application, we will use tkinter which is a package in python for creating GUI. It's easy to use which will make coding much faster when compared to using other programming languages.
+## How it works
+The program will read and get data like server, topic, and path from config.txt file in the same directory.
 
 # Save-file and Send-file
 Texts will be sent via MQTT while pictures will be sent via the help of tcp socket.
