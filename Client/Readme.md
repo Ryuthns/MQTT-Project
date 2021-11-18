@@ -3,11 +3,7 @@ On this side, we created a GUI application using GTK in C language. Our app will
 
 ## Necessary Links
 [Curl](https://curl.se/) <br/>
-[GTK](https://docs.gtk.org/gtk3/index.html) <br/>
+[GTK 3.0](https://docs.gtk.org/gtk3/index.html) <br/>
 [Paho MQTT](https://www.eclipse.org/paho/index.php?page=clients/c/index.php)
 
-
-
-## Receiving text from MQTT
-
-## Receiving image file from TCP
+## How it works
