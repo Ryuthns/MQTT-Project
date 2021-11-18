@@ -10,6 +10,16 @@ Once we finished training, we got the xml file and tested it.
 
 ![image](https://user-images.githubusercontent.com/87508144/142204770-aa6d6819-142c-403b-a1df-7a9c11f93828.png)
 
+## PC spec
+**The system used for training has these features :** <br/>
+FX505DT-AL043T <br/>
+CPU : AMD Ryzen 7 3750H 2.3 - 4 GHz <br/>
+GPU : NVIDIA GeForce GTX 1650 (4GB GDDR5) <br/>
+RAM : 16GB DDR4 <br/>
+Storage : SSD PCIe 512GB <br/>
+Display : 15.6″ Full HD IPS 120Hz <br/>
+OS : Windows 10
+
 
 
 # GUI Application
