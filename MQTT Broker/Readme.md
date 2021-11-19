@@ -1,4 +1,5 @@
 # Test.Mosquitto.org Broker
+### !! This directory is just for testing. None of these files are used in the final project. !!
 ## Necessary Links <br/>
 • [Test Mosquitto Website](https://test.mosquitto.org/) <br/>
 • [Download MQTT](https://mosquitto.org/download/) <br/>
