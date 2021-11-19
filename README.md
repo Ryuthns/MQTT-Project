@@ -1,5 +1,5 @@
 # Smoker Detection
-[Explaination Video (in Thai)](https://youtu.be/fULGcC-HwrQ)
+[Explanation Video (in Thai)](https://youtu.be/fULGcC-HwrQ)
 ![image](https://user-images.githubusercontent.com/87508144/142571608-c2beee8f-f1e5-4a1b-9b9c-5b62111f0c31.png)
 
 ## Overview
