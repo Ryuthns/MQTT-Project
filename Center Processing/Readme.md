@@ -5,7 +5,8 @@ We will be using openCV and viola-jones algorithm for detection. <br/>
 - **Viola-Jones** : It's well known for its reputation and reliability. It's exceptionally notable in real-time face detection. <br/>
 
 There are two stages of Viola-Jones which is training and detection.
-[Haar cascade](https://www.pyimagesearch.com/2021/04/12/opencv-haar-cascades/)
+[Haar cascade](https://www.pyimagesearch.com/2021/04/12/opencv-haar-cascades/) <br/>
+We trained it by feeding positive(gray images with ciga) and negative images(gray images without ciga).
 ![image](https://user-images.githubusercontent.com/87508144/134677353-bb8dfd05-b1f4-4d63-9201-a64c031230b4.png)
 ![image](https://user-images.githubusercontent.com/87508144/142566082-3a430c9a-dcaf-4f79-a2c1-e420f32492e8.png)
 
