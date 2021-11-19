@@ -1,4 +1,5 @@
 # Transfering File
+Both filenames and images are transferd through 203.146.252.179 server.
 ## MQTT
 Filenames are transfered through MQTT broker from center processing to client side.
 
