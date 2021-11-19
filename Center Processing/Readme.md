@@ -7,8 +7,10 @@ We will be using openCV and viola-jones algorithm for detection. <br/>
 There are two stages of Viola-Jones which is training and detection.
 [Haar cascade](https://www.pyimagesearch.com/2021/04/12/opencv-haar-cascades/)
 ![image](https://user-images.githubusercontent.com/87508144/134677353-bb8dfd05-b1f4-4d63-9201-a64c031230b4.png)
-We used haar cascade which is a feature in viola-jones. Once we finished training, we got the xml file and tested it.
+![image](https://user-images.githubusercontent.com/87508144/142566082-3a430c9a-dcaf-4f79-a2c1-e420f32492e8.png)
 
+We used haar cascade which is a feature in viola-jones. Once we finished training, we got the xml file and tested it.
+![image](https://user-images.githubusercontent.com/87508144/142566123-b4c86453-5c0d-4021-b797-318bca64ffd0.png)
 ![image](https://user-images.githubusercontent.com/87508144/142204770-aa6d6819-142c-403b-a1df-7a9c11f93828.png)
 
 ## PC spec
@@ -44,7 +46,10 @@ As you can see from the image above, "Connected" is shown in the GUI to let us k
 ![image](https://user-images.githubusercontent.com/87508144/142213518-88b9aa29-7a98-4a14-a0b1-7603456449f7.png) <br/>
 We put a delay(around 5sec) between saving images so that our folder won't be flooded with images being saved every seconds during detection. Once detected, that image is then saved with timestamp being file name in the directory "current_images" and the file name will be stored in "data.txt" temporary. During this process, the saved images are uploaded to our server using sftp protocol and filenames are sent through MQTT.
 ![image](https://user-images.githubusercontent.com/87508144/142213977-01f3f25a-76c2-4f9c-bdc1-70a39433c951.png) <br/>
-After you close the program, all the images in "current_images" will be moved to "Cache" using names in "data.txt". Then we clear all the texts in "data.txt".
+After you close the program, all the images in "current_images" will be moved to "Cache" using names in "data.txt". Then we clear all the texts in "data.txt". <br/>
+## Webcam used : <br/>
+![image](https://user-images.githubusercontent.com/87508144/142566217-98e6a778-124d-43c8-b728-0c24a9b9b5cd.png)
+
 
 
 
