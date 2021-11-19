@@ -12,7 +12,14 @@ Port 22
 
 
 ## MQTT
-Filenames are transfered through MQTT broker from center processing to client side.
+Filenames are transfered through MQTT broker from center processing to client side. In the center processing side, when a smoker is detected. The program will save that image and publish filename as a message through MQTT broker. When the client side subscribe that message, that message(filename) is used to indicate which image to get from the server.
+### Necessary Links
+[MQTT Python](http://www.steves-internet-guide.com/into-mqtt-python-client/) <br/>
+[MQTT C](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html)
 
 ## SFTP
-Images are uploaded to our server using [sftp](https://pypi.org/project/pysftp/) protocol so that client side can get the images.
+Images are uploaded to our server using sftp protocol so that client side can get the images using curl. In the center processing side, as the message is being sent. The program also connect and upload saved image onto the server which later the client side will use curl to get that image onto their own system. The images will now be shown in the GUI of the client side.
+### Necessary Links
+[SFTP Python](https://pypi.org/project/pysftp/) <br/>
+[Curl](https://github.com/curl/curl)
+
