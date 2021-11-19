@@ -17,7 +17,7 @@ The images below show that it takes two times the CPU when detecting.
 
 
 ## Result
-The program work as intended, but sometimes there is a problem with multithreading on center processing side. The program sometimes still save an image even with a delay and that saved image will not be moved to "Cache". This could be due to some problems with sftp because we put a code to connect to server in a while loop.
+The program work as intended, but sometimes there is a problem with multithreading on center processing side. The program sometimes still save an image even with a delay and that saved image may or may not be moved to "Cache". This could be due to some problems with sftp because we put a code to connect to server in a while loop. Our XML files still can't detect some images. It needs more training to be more precise, but other than that it's working fine.
 
 ## Benefits
 - Help prevent smoking in public areas
