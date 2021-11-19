@@ -9,5 +9,10 @@ In this project, we will use our program to detect smoker in public areas with t
 
 > Each directory is included with an explanation for each part of the project.
 
+## Efficiency
+The more image we keep on detecting the less time we get.
+![image](https://user-images.githubusercontent.com/87508144/142568115-aa6e6da2-993b-4371-bc99-7a724c983744.png)
+
+
 
 
