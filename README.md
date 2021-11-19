@@ -15,6 +15,12 @@ This program also supports all OS.
 The more image we keep on detecting the less time we get.
 ![image](https://user-images.githubusercontent.com/87508144/142568115-aa6e6da2-993b-4371-bc99-7a724c983744.png)
 
+## Result
+The program work as intended, but sometimes there is a problem with multithreading on center processing side. The program sometimes still save an image even with a delay and that saved image will not be moved to "Cache". This could be due to bad writing for multithreading or some problems with sftp when connecting to the server many times in a row with the same user.
+
+## Benefits
+- Help prevent smoking in public areas
+
 
 
 
