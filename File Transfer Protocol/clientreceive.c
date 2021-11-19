@@ -112,7 +112,7 @@ void to_connect_server(MQTTClient client,MQTTClient_connectOptions conn_opts ) {
 
     MQTTClient_subscribe(client, topic_name, QOS);
 }
-
+//=============================================================================================================================================================================
 
 //CURL
 #include <stdio.h>
