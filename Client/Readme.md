@@ -13,8 +13,9 @@ Once we clicked start, we will be moved to another page that shows images from C
 ![image](https://user-images.githubusercontent.com/87508144/142411886-094a575a-db05-4414-804a-83973e945399.png)
 We also put a setting button to let user change things. The button consists of login, server, and topic.
 ![image](https://user-images.githubusercontent.com/87508144/142411916-05d3590a-7ed2-41fe-a5bf-ba19cfb761b6.png)
-We also created a function to delete images stored in the system, but login through setting button is required.
+We also created a function to delete images stored in the system, but login through setting button is required. Once login, we will be able to click the file in case we want to view it in full size. We can also click the file to select and delete it or delete all files in the diretory.
 ![image](https://user-images.githubusercontent.com/87508144/142411939-9dfca7f3-5509-4516-940f-f73c04bc3499.png)
+The image below shows the result of sending images from three cameras at the same time.
 ![image](https://user-images.githubusercontent.com/87508144/142594741-1d50dfda-155b-4c85-a980-ca367b3f2d51.png)
 
 
