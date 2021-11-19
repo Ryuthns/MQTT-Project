@@ -11,6 +11,10 @@ This program also supports all OS. ✅
 ## Efficiency
 The more image we keep on detecting the less time we get.
 ![image](https://user-images.githubusercontent.com/87508144/142568115-aa6e6da2-993b-4371-bc99-7a724c983744.png)
+The images below show that it takes two times the CPU when detecting.
+![image](https://user-images.githubusercontent.com/87508144/142594925-4d1433d6-068e-410b-a2aa-904e16494441.png)
+![image](https://user-images.githubusercontent.com/87508144/142594935-3aff0e6c-bbf6-4ecc-8b93-577b20febd68.png)
+
 
 ## Result
 The program work as intended, but sometimes there is a problem with multithreading on center processing side. The program sometimes still save an image even with a delay and that saved image will not be moved to "Cache". This could be due to some problems with sftp because we put a code to connect to server in a while loop.
