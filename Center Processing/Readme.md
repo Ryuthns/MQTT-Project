@@ -34,7 +34,7 @@ For our GUI application, we will use tkinter which is a package in python for cr
 [Configparser Documents](https://docs.python.org/3/library/configparser.html)
 
 ## How it works
-Once executed, the program will read and get data like server, topic, and path from config.txt file in the same directory. Then it will try to connect to MQTT broker with topic from your config file with the help of Configparser library. If the connection is OK, "Connected" will be shown in the GUI.
+Once executed, the program will read and get data like server, topic, and path from config.txt file in the same directory. Then it will try to connect to MQTT broker with topic from your config file with the help of Configparser library. If the connection is OK, "Connected" will be shown in the GUI. The program comes with config file to let user change server, topic, and path(needed).
 
 ![image](https://user-images.githubusercontent.com/87508144/142207803-e6462cbe-e629-4db3-bf64-267c44945e14.png) <br/>
 Camera ID is required in the entry box. The camaera ID must be between 1-9, others will be rejected and an error message will pop up. Clicking start button will move to another page unless the entry box is blank. OpenCV library is required to capture video from recording device. Then Python PIL is used to help with images like icon, custom button, and showing videos in GUI.<br/>
