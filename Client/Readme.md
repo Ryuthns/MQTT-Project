@@ -15,5 +15,7 @@ We also put a setting button to let user change things. The button consists of l
 ![image](https://user-images.githubusercontent.com/87508144/142411916-05d3590a-7ed2-41fe-a5bf-ba19cfb761b6.png)
 We also created a function to delete images stored in the system, but login through setting button is required.
 ![image](https://user-images.githubusercontent.com/87508144/142411939-9dfca7f3-5509-4516-940f-f73c04bc3499.png)
+![image](https://user-images.githubusercontent.com/87508144/142594741-1d50dfda-155b-4c85-a980-ca367b3f2d51.png)
+
 
 
